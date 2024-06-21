@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+</head>
+
+<body>
+    <p>This is a paragraph</p>
+    <strong>strong</strong>
+    <em>em</em>
+    <abbr>abbr</abbr>
+    <address>address</address>
+    <bdo>bdo</bdo>
+    <blockquote>blockquote</blockquote>
+    <cite>cite</cite>
+    <q>quote</q>
+    <code>code</code>
+    <ins>ins</ins>
+    <del>del</del>
+    <dfn>dfn</dfn>
+    <kbd>kbd</kbd>
+    <pre>pre</pre>
+    <samp>samp</samp>
+    <var>var</var>
+    <br>
+    <hr />
+
+
+    <a href="#">google.com</a>
+
+    <hr />
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+    </ul>
+
+    <ul style="list-style-type:circle">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type:square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <hr />
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Marks</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>30</td>
+                <td>80</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>80</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Sonoo</td>
+            <td>Jaiswal</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>William</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Swati</td>
+            <td>Sironi</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>Chetna</td>
+            <td>Singh</td>
+            <td>72</td>
+        </tr>
+    </table>
+
+    <h3>HTML COLSPAN Example</h3>
+    <table border="1">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+
+    <h3>HTML ROWSPAN Example</h3>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>555-1234</td>
+        </tr>
+        <tr>
+            <td>555-8745</td>
+        </tr>
+    </table>
+    <hr />
+
+    <form>
+        <fieldset>
+            <legend>Employee Details</legend>
+            <div>
+                First name: <input type="text" name="fname" />
+            </div>
+            <p>
+                Last name: <input type="text" name="lname" />
+            </p>
+
+            <p>
+                <input type="radio" name="Gender" value="Male"> Male
+                <input type="radio" name="Gender" value="Female"> Female
+            </p>
+
+            <p>
+                Employee ID: <input type="text" name="ID" />
+            </p>
+
+            <p>
+                Password: <input type="password" name="ID" />
+            </p>
+
+            <p>
+                Phone Number: <input type="number" name="phone" />
+            </p>
+
+            <p>
+                <input type="submit" name="submit" value="Test me" />
+            </p>
+        </fieldset>
+    </form>
+    <hr />
+
+
+    <video controls>
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the html video tag.
+    </video>
+
+    <audio controls muted>
+        <source src="koyal.mp3" type="audio/mpeg">
+        Your browser does not support the html audio tag.
+    </audio>
+
+    <hr />
+
+    <iframe src="https://www.javatpoint.com/" style="height:300px;width:400px"></iframe>
+    <!-- CORS policy -->
+    <hr />
+
+    <!-- <marquee>This is an example of html marquee </marque> -->
+    <br />
+    <progress value="43" max="100"></progress>
+    <br />
+    <textarea>
+
+</textarea>
+
+<hr />
+
+
+<!-- <canvas id="myCanvas" width="250" height="150" style="border:1px solid #c3c3c3;">  
+    Your browser does not support the HTML5 canvas tag.  
+    </canvas>  -->
+
+</body>
+
+</html>

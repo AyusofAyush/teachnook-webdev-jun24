@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+ <title>Document</title>  
+ <style>  
+  body {  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+.content {  
+  padding: 20px;  
+  text-align: center;  
+  color: #fff; /* Default text color */  
+}  
+  
+/* Media query for screens larger than 768 pixels */  
+@media screen and (min-width: 769px) {  
+  body {  
+    background-color: #3498db; /* Blue background for larger screens */  
+  }  
+  
+  .content {  
+    background-color: #2980b9; /* Blue background for larger screens */  
+  }  
+}  
+  
+/* Media query for screens smaller than or equal to 768 pixels */  
+@media screen and (max-width: 768px) {  
+  body {  
+    background-color: #e74c3c; /* Red background for smaller screens */  
+  }  
+  
+  .content {  
+    background-color: #c0392b; /* Red background for smaller screens */  
+  }  
+} 
+
+@media screen and (max-width: 1200px) {  
+  body {  
+    background-color: yellowgreen; /* Red background for smaller screens */  
+  }  
+  
+  .content {  
+    background-color: pink; /* Red background for smaller screens */  
+  }  
+}  
+  
+ </style>  
+</head>  
+  
+ <body>  
+  <div class="content">  
+    <h1>Hello, Media Query Example!</h1>  
+    <p>This is an example of how to use @media rules to apply different styles based on screen size.</p>  
+  </div>  
+  
+</body>  
+</html>  

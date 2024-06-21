@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            --yellow-color: rgb(160, 160, 23);
+        }
+        div {
+            background-color: var(--yellow-color);
+            width: 200px;
+            padding: 20px;
+            border: 10px solid black;
+            /* min-height: 500px; */
+            height: 200px;
+            /* opacity: 0.5; */
+            /* visibility: visible; */
+            /* max-height: 700px; */
+        }
+        /* .hello {
+            background-color: pink;
+        } */
+        @media screen and (max-width: 500px) {
+            div {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hello"> Hello World</div>
+
+</body>
+</html>
