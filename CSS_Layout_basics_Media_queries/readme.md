@@ -1,25 +1,30 @@
-* What is CSS?
-CSS stands for Cascading style sheets. It describes to the user how to display HTML elements on the screen in a proper format.
+- What is CSS?
+  CSS stands for Cascading style sheets. It describes to the user how to display HTML elements on the screen in a proper format.
 
-* How to write css ?
-refer img
+- How to write css ?
+  refer img
 
-* Ways of attaching CSS
-- inline CSS
-- css in <style> tag in head
-- external css 
+- Ways of attaching CSS
 
-* CSS selectors
-There are several different types of selectors in CSS.
+* inline CSS
+* css in <style> tag in head
+* external css
+
+- CSS selectors
+
+```
+  There are several different types of selectors in CSS.
 
 CSS Element Selector
 CSS Id Selector
 CSS Class Selector
 CSS Universal Selector
 CSS Group Selector
+```
 
+- CSS Specificity
 
-* CSS Specificity
+```
 !important
 
 Inline styles: It is directly attached to the element which is to be styled. For example: <p style="color: red;">. It has the highest priority.
@@ -31,8 +36,10 @@ Classes, attributes, and pseudo-classes: It includes classes, attributes, and ps
 Elements and pseudo-elements: It includes the name of elements (div, h1) and pseudo-elements (like :after and :before). They have the lowest priority.
 
 Universal selector
+```
 
-* Basic CSS properties
+- Basic CSS properties
+
 ```
 - background related
 background-color
@@ -53,7 +60,7 @@ display: inline-block;
 display: block;
 display: flex;
 display: grid;
-...
+... etc
 
 - font
 CSS Font color: This property is used to change the color of the text. (standalone attribute)
@@ -71,7 +78,7 @@ HSL.
 HSLA.
 Built-in color.
 
-- margin 
+- margin
 margin	This property is used to set all the properties in one declaration.
 margin-left	it is used to set left margin of an element.
 margin-right	It is used to set right margin of an element.
@@ -123,7 +130,9 @@ visibility
 
 ```
 
-* functions in CSS
+- functions in CSS
+
+```
 calc() - perform calculations
 attr() - returns attribute value of selected element
 max() - largest value
@@ -133,10 +142,11 @@ rgba(0-255, 0-255, 0-255, 0.5) - rgb with Alpha model
 var() - inserts the value of custom property
 linear-gradient() - cubiz bezier curve
 radial-gradient() - radial gradient
---yellow
+```
 
+- CSS animations
 
-* CSS animations
+```
 Property	Description
 @keyframes	It is used to specify the animation.
 animation	This is a shorthand property, used for setting all the properties, except the animation-play-state and the animation-fill- mode property.
@@ -148,13 +158,15 @@ animation-iteration-count	It specifies the number of times the animation should 
 animation-play-state	It specifies if the animation is running or paused.
 animation-name	It specifies the name of @keyframes animation.
 animation-timing-function	It specifies the speed curve of the animation.
-
-* media queries
 ```
-@media not|only media type and (media feature and|or|not media feature)   
-{  
-    // CSS Property  
-}  
+
+- media queries
+
+```
+@media not|only media type and (media feature and|or|not media feature)
+{
+    // CSS Property
+}
 
 
 Media Types
@@ -174,12 +186,12 @@ we will look at max-width & min-width
 
 ```
 
+- Flex box
 
-* Flex box
+```
 What is Flexbox?
 In CSS, we use Flexbox, a layout model that offers us a variety of ways to arrange the element and helps us align the element in CSS. With Flexbox's help, we can design responsive and dynamic webpage or user interface layouts.
 
-```
 Flex-direction: with the help of flex-direction, we can arrange the element in any direction, like a row, a column, and a row reverse or a column reverse.
 Justify-content: Determines how flex items are aligned horizontally within the container using the justify-content property.
 Align-items: Defines the vertical alignment of flex items inside the container.
