@@ -1,4 +1,7 @@
-* body of html
+# HTML tags Basics
+
+## body of html
+
 ```
 <header>
 <nav>
@@ -8,11 +11,13 @@
 <aside>
 <footer>
 
-in general 
+in general
 <div>'s only
 
 ```
-* HTML text tags
+
+## HTML text tags
+
 ```
 <p>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <strong>, <em>, <abbr>, <address>, <bdo>, <blockquote>, <cite>, <q>, <code>, <ins>, <del>, <dfn>, <kbd>, <pre>, <samp>, <var> and <br>
 
@@ -33,50 +38,61 @@ in general
 <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 
 WHO
-...  
+...
 ```
 
-* link tags
+## link tags
+
 ```
 <a> <base>
 ```
-* Images and Object tags
+
+## Images and Object tags
+
 ```
 <img> <area> <map> <param> <object>
 ```
-* List tags 
+
+## List tags
+
 ```
 <ul>, <ol>, <li>, <dl>, <dt> and <dd>
 ```
 
-* Table Tags
+## Table Tags
+
 ```
 <table> <tr> <td> <th> <tbody> <tfoot>
 <col> <colgroup> <caption>
 ```
 
-* Form tags
+## Form tags
+
 ```
 form, input, textarea, select, option, optgroup, button, label, fieldset and legend
 ```
 
-* comments
+## comments
+
 <!--  -->
 
-* Video / Audio tags
-```
-<video controls>  
-   <source src="movie.ogg" type="video/ogg">  
-  Your browser does not support the html video tag.  
-</video>  
+## Video / Audio tags
 
-<audio controls>  
-  <source src="koyal.mp3" type="audio/mpeg">  
-Your browser does not support the html audio tag.  
-</audio>  
 ```
-* iframe tag
+<video controls>
+   <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the html video tag.
+</video>
+
+<audio controls>
+  <source src="koyal.mp3" type="audio/mpeg">
+Your browser does not support the html audio tag.
+</audio>
 ```
-<iframe src="https://www.javatpoint.com/" style="height:300px;width:400px"></iframe> 
+
+## iframe tag
+
+```
+<iframe src="https://www.javatpoint.com/" style="height:300px;width:400px"></iframe>
 
 ```
