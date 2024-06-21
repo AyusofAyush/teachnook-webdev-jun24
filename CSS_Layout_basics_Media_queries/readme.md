@@ -1,16 +1,20 @@
-- What is CSS?
-  CSS stands for Cascading style sheets. It describes to the user how to display HTML elements on the screen in a proper format.
+# CSS Basics and Media Queries
 
-- How to write css ?
-  refer img
+## What is CSS?
 
-- Ways of attaching CSS
+CSS stands for Cascading style sheets. It describes to the user how to display HTML elements on the screen in a proper format.
 
-* inline CSS
-* css in <style> tag in head
-* external css
+## How to write css ?
 
-- CSS selectors
+refer img
+
+## Ways of attaching CSS
+
+- inline CSS
+- css in <style> tag in head
+- external css
+
+## CSS selectors
 
 ```
   There are several different types of selectors in CSS.
@@ -22,7 +26,7 @@ CSS Universal Selector
 CSS Group Selector
 ```
 
-- CSS Specificity
+## CSS Specificity
 
 ```
 !important
@@ -38,7 +42,7 @@ Elements and pseudo-elements: It includes the name of elements (div, h1) and pse
 Universal selector
 ```
 
-- Basic CSS properties
+## Basic CSS properties
 
 ```
 - background related
@@ -130,7 +134,7 @@ visibility
 
 ```
 
-- functions in CSS
+## functions in CSS
 
 ```
 calc() - perform calculations
@@ -144,7 +148,7 @@ linear-gradient() - cubiz bezier curve
 radial-gradient() - radial gradient
 ```
 
-- CSS animations
+## CSS animations
 
 ```
 Property	Description
@@ -160,7 +164,7 @@ animation-name	It specifies the name of @keyframes animation.
 animation-timing-function	It specifies the speed curve of the animation.
 ```
 
-- media queries
+## media queries
 
 ```
 @media not|only media type and (media feature and|or|not media feature)
@@ -186,7 +190,7 @@ we will look at max-width & min-width
 
 ```
 
-- Flex box
+## Flex box
 
 ```
 What is Flexbox?
