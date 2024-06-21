@@ -20,7 +20,12 @@ Align-content: When the cross-axis has extra space, align-content regulates how 
 
 [Design link](https://freewebsitetemplates.com/preview/zerotype/index.html)
 
+Do check the project by cloning and try it out on your browser
+
+Website follows Responsive Design
+
 Note: Code will be shared through github don't worry
 
 [Code Base](https://github.com/AyusofAyush/teachnook-webdev-jun24) \
+
 [Good Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
