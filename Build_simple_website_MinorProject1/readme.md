@@ -1,6 +1,7 @@
 # Build a basic website with HTML, CSS & JS
 
-## Previous Recap
+## Flexbox Recap
+
 ```
 What is flexbox ?
 What is Flexbox?
@@ -15,10 +16,11 @@ Align-content: When the cross-axis has extra space, align-content regulates how 
 .... etc.
 ```
 
-## Today we will be creating a website 
+## Today we will be creating a website
+
 [Design link](https://freewebsitetemplates.com/preview/zerotype/index.html)
 
-Note: Code will be shared through github don't worry 
+Note: Code will be shared through github don't worry
 
-[Code Base](https://github.com/AyusofAyush/teachnook-webdev-jun24)
+[Code Base](https://github.com/AyusofAyush/teachnook-webdev-jun24) \
 [Good Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
