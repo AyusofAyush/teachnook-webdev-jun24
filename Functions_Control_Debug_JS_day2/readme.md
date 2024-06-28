@@ -30,6 +30,7 @@ const greet6 = (name, time) => console.log(`Good ${time} ${name}`);
 // 7. Arrow Function with return statement
 const greet7 = (name, time) => {
     return `Good ${time} ${name}`;
+}
 `
 
 ## Javascript Data structures

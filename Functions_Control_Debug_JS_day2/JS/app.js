@@ -304,4 +304,77 @@ let objError = {
 objError.greet();
 // conclusion: arrow function does not have its own this keyword, it uses the parent context this keyword
 
+// 6. Class Context
+class Test {
+    name = 'John';
+    greet() {
+        console.log(this); // obj
+    }
+}
+
+let testObj = new Test();
+testObj.greet();
+
+// 7. Constructor Context
+function Test2() {
+    console.log('Constructor context: ',this); // obj
+}
+Test2();
+
+// 8. Bind, Call, Apply -  < ES5 
+
+// example of bind 
+let objBind = {
+    name: 'John',
+    greet: function() {
+        console.log(this); // obj
+    }
+}
+
+let objBind2 = {
+    name: 'Doe',
+    greetMe: () => {
+        console.log(this)
+    }
+}
+
+objBind2.greetMe();
+
+let greet3 = objBind.greet.bind(objBind2);
+
+greet3();
+
+
+// example of call 
+
+let objCall = {
+    name: 'John',
+    greet: function() {
+        console.log(this); // obj
+    }
+}
+
+let objCall2 = {
+    name: 'Doe'
+}
+
+objCall.greet.call(objCall2);
+
+// example of apply 
+
+let objApply = {
+    name: 'John',
+    greet: function() {
+        console.log(this); // obj
+    }
+}
+
+let objApply2 = {
+    name: 'Doe'
+}
+
+objApply.greet.apply(objApply2);
+
+
+
 // --------------------------------------------
