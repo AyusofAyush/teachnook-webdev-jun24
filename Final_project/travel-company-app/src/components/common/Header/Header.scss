@@ -1,0 +1,19 @@
+.main-header-parent {
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  // background-color: rgba(#ffc0cb, 0.8);
+  padding: 10px 5%;
+  color: var(--white);
+  z-index: 100;
+  .header-parent {
+    height: 80px;
+    .menu-items > li {
+      margin: 0 10%;
+      text-transform: uppercase;
+    }
+  }
+}
