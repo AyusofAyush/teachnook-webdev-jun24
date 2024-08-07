@@ -1,9 +1,9 @@
 import React from "react";
 import './Button.scss';
 
-function Button() {
+function Button({btnType = 'call-to-action-btn'}) {
   return (
-    <button className="flex call-to-action-btn center font-semibold uppercase">
+    <button className={`flex ${btnType} center font-semibold uppercase`}>
       Call to Action
     </button>
   );

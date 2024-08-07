@@ -27,3 +27,27 @@
     background-color: var(--black);
   }
 }
+
+.headline-parent {
+  background-color: var(--headline-bg-color);
+  .about-us-parent {
+    background-color: var(--white);
+    margin-top: -7%;
+    z-index: 10;
+    .about-us-desc {
+      h5 {
+        color: grey;
+        line-height: 1;
+      }
+      p {
+        color: #a5a5a5;
+        line-height: 1.5;
+      }
+    }
+  }
+  .headline-body {
+    h5 {
+      color: var(--light-grey);
+    }
+  }
+}
