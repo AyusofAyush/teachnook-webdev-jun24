@@ -1,0 +1,31 @@
+.footer-section-parent {
+    position: relative;
+    background-color: var(--black);
+    background-image: url("../../../assets/common2.jpg");
+    min-height: 500px;
+  
+    .highlight-overlay {
+      position: absolute;
+      width: 100%;
+      background-color: transparent;
+      color: var(--white);
+      z-index: 99;
+    }
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      mix-blend-mode: initial;
+      opacity: 0.8;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      z-index: 1;
+      background-color: var(--black);
+    }
+  }
+.copyright-section {
+    color: grey;
+}

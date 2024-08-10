@@ -1,0 +1,13 @@
+.testimonials-cell {
+    background-color: var(--white);
+    padding: 20px;
+    .quote-img {
+        width: 30px;
+        fill: var(--theme-green);
+        color: var(--theme-green);
+        border-color: var(--theme-green);
+    }
+    p {
+        color: grey;
+    }
+}
