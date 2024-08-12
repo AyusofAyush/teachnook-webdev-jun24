@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../components/common/Header/Header";
 import Button from "../../components/common/Button/Button";
 import "./Home.scss";
 import aboutUsImg from "../../assets/about.jpg";
 import CoreValue from "../../components/common/CoreValue/CoreValue";
-import {coreValArray, testimonialsArray, uniqueValueArray} from '../../utils/constants';
 import Testimonials from "../../components/common/Testimonials/Testimonials";
 import Footer from "../../components/common/Footer/Footer";
+import { useEffect } from "react";
+import {
+  getCoreValues,
+  getTestimonials,
+  getUniqueValues,
+} from "../../service.js/api";
 
 function Home() {
+  const [coreValArray, setcoreValArray] = useState([]);
+  const [uniqueValueArray, setuniqueValueArray] = useState([]);
+  const [testimonialsArray, settestimonialsArray] = useState([]);
 
+  // lifecycle - and used for setting all the values when app loads 
+  useEffect(() => {
+    getCoreValues().then((items) => setcoreValArray(items?.data));
+    getUniqueValues().then((res) => setuniqueValueArray(res?.data));
+    getTestimonials().then((res) => settestimonialsArray(res?.data));
+  }, []); // empty array mean runs only on start
 
   return (
     <>
@@ -106,13 +120,18 @@ function Home() {
       </section>
 
       <section className="flex testimonials-section column px-[10%] py-[5%] gap-10">
-        <h1 className="text-center text-4xl">Short Heading for Testimonials Section </h1>
+        <h1 className="text-center text-4xl">
+          Short Heading for Testimonials Section{" "}
+        </h1>
         <div className="flex testimonial-group gap-8">
-          {
-            testimonialsArray?.map(item => {
-              return <Testimonials testimonialPara={item.testimonialPara} />
-            })
-          }
+          {testimonialsArray?.map((item) => {
+            return (
+              <Testimonials
+                testimonialPara={item.testimonialPara}
+                author={item?.author}
+              />
+            );
+          })}
         </div>
       </section>
 
