@@ -55,7 +55,7 @@ function Home() {
               <Button />
             </div>
           </div>
-          <div className="about-us-img">
+          <div className="flex about-us-img center">
             <img src={aboutUsImg} alt="about us img" />
           </div>
         </section>
@@ -66,7 +66,7 @@ function Home() {
           <h1 className="text-center text-[40px] px-[20%]">
             Headline Describing Your Company Core Values Will Come Here
           </h1>
-          <div className="flex mt-8 gap-4">
+          <div className="flex mt-8 center gap-4 px-[10%] w-100">
             {coreValArray?.map((item) => {
               return (
                 <CoreValue

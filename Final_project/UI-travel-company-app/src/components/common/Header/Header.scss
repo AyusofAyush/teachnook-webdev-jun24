@@ -16,4 +16,23 @@
       text-transform: uppercase;
     }
   }
+  @media screen and (max-width: 712px) {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    .header-parent {
+      flex-direction: column;
+      height: 100%;
+      gap: 10px;
+      .menu-items {
+        flex-direction: column;        
+        & > li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px 0;
+        }
+      }
+    }
+  }
 }

@@ -26,6 +26,15 @@
     z-index: 1;
     background-color: var(--black);
   }
+
+  @media screen and (max-width: 724px) {
+    padding-top: 40px;
+    .hero-overlay {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
 }
 
 .headline-parent {
@@ -48,6 +57,17 @@
   .headline-body {
     h5 {
       color: var(--light-grey);
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    .about-us-parent {
+      flex-direction: column;
+      .about-us-desc {
+        width: 100%;
+        align-items: center;
+        padding: 5%;
+      }
     }
   }
 }
@@ -105,4 +125,10 @@
 
 .testimonials-section {
   background-color: var(--headline-bg-color);
+
+  @media screen and (max-width: 650px) {
+    .testimonial-group {
+      flex-direction: column;
+    }
+  }
 }

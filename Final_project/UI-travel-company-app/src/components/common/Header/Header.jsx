@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import Button from "../Button/Button";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -8,10 +9,18 @@ function Header() {
       <header className="flex header-parent space-btw w-100">
         <div className="flex brand-name center text-3xl">Travor</div>
         <ul className="flex menu-items center text-sm">
-          <li className="w-100">Home</li>
-          <li className="w-100">About</li>
-          <li className="w-100">Offerings</li>
-          <li className="w-100">Contact</li>
+          <li className="w-100">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="w-100">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="w-100">
+            <Link to="/tour">Offerings</Link>
+          </li>
+          <li className="w-100">
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
         <div className="flex center">
           <Button />
